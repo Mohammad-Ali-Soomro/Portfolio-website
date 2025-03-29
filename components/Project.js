@@ -17,7 +17,7 @@ const Project = () => {
       type: "Web",
       desc: " A project for visualizing ISS using NASA's OpenAPIs",
       techstack: "Three.js, Leaflet.js, NASA APIs",
-      icons: ["/visualc++.svg"],
+      icons: ["/leaflet.svg "],
       url: "https://github.com/Mohammad-Ali-Soomro/nasa-space-tracker",
     },
     
@@ -26,7 +26,7 @@ const Project = () => {
       type: "App",
       desc: " A chess game where you can play against a bot.",
       techstack: "Python Pygame",
-      icons: ["/php.svg", "/laravel.svg", "/sql.svg"],
+      icons: ["/Python.svg"],
       url: "https://github.com/Mohammad-Ali-Soomro/Chess-Game-in-Python-Pygame",
     },
 
@@ -35,7 +35,7 @@ const Project = () => {
       type: "App",
       desc: " GUI based OOP Semester Project built using Visual C++",
       techstack: "Visual C++",
-      icons: ["/flutter.svg", "/firebase.svg"],
+      icons: ["/visualC.svg"],
       url: "https://github.com/Mohammad-Ali-Soomro/Data-Visualization-using-Bitmaps",
     },
   ];
