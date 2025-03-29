@@ -16,7 +16,7 @@ const NavbarComponent = () => {
         onClick={handleScrollToTop}
         href="#"
       >
-        Amna Kamran
+        Mohammad Ali
       </Navbar.Brand>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
@@ -40,21 +40,21 @@ const NavbarComponent = () => {
         </Nav>
         <Nav className="m1-auto">
           <Nav.Link
-            href="mailto:amnakamran139@gmail.com"
+            href="mailto:your-email@example.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             <EnvelopeIcon className={styles.icon} />
           </Nav.Link>
           <Nav.Link
-            href="https://www.linkedin.com/in/amnakamranbutt/"
+            href="https://www.linkedin.com/in/your-linkedin/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <LinkedIn className={styles.icon} />
           </Nav.Link>
           <Nav.Link
-            href="https://github.com/amna-kamran"
+            href="https://github.com/Mohammad-Ali-Soomro"
             target="_blank"
             rel="noopener noreferrer"
           >

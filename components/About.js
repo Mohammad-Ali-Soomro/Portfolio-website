@@ -2,21 +2,20 @@ import { Fade } from "react-bootstrap";
 import styles from "../styles/About.module.css";
 import FadeIn from "./FadeIn";
 const About = () => {
-  const languages = ["javascript ES6+", "dart", "python", "java"];
-  const frameworks = ["reactJS", "nextJS", "react native", "flutter"];
-  const databases = ["MongoDB", "Firebase", "SQL"];
+  const languages = ["python", "javascript", "C", "C++", "SQL", "php"];
+  const frameworks = ["django", "flask", "laravel", "three.js", "react"];
+  const databases = ["PostgreSQL", "MongoDB", "Firebase"];
   return (
     <div id="about" className={styles.main_container}>
       <FadeIn>
         <div className="padding">
           <h3 className="heading">/about me</h3>
           <p className="text">
-            I am currently a 4th year
-            <span className={styles.highlight}> computer science</span> student
-            at
+            I am currently a
+            <span className={styles.highlight}> CS Sophomore</span> at
             <span className={styles.highlight}>
               {" "}
-              COMSATS University Islamabad.
+              GIKI, Topi.
             </span>
           </p>
           <br />
@@ -60,8 +59,8 @@ const About = () => {
             </ul>
           </div>
           <p className="text">
-            When i'm not coding, i do digital art, crochet and also play video
-            games.
+            When i'm not coding, i do poetry, philosophy and also play cricket.
+            
           </p>
         </div>
       </FadeIn>

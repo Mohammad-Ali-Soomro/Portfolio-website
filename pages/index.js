@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Amna</title>
+        <title>Mohammad Ali</title>
         <link rel="icon" href="/bow.svg" />
       </Head>
 

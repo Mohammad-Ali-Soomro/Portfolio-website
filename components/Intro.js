@@ -24,7 +24,7 @@ const Intro = () => {
           <div style={{ padding: 5 }} />
           <TypeAnimation
             className={styles.name}
-            sequence={["amna"]}
+            sequence={["mohammad ali"]}
             style={{ color: "#64ffda" }}
             wrapper="p"
             speed={{ type: "keyStrokeDelayInMs", value: 300 }}
