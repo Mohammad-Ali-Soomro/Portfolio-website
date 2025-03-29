@@ -17,7 +17,7 @@ const Project = () => {
       type: "Web",
       desc: " A project for visualizing ISS using NASA's OpenAPIs",
       techstack: "Three.js, Leaflet.js, NASA APIs",
-      icons: ["/react.svg", "/firebase.svg"],
+      icons: ["/visualc++.svg"],
       url: "https://github.com/Mohammad-Ali-Soomro/nasa-space-tracker",
     },
     

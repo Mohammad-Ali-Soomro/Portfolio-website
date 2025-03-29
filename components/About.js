@@ -4,7 +4,7 @@ import FadeIn from "./FadeIn";
 const About = () => {
   const languages = ["python", "javascript", "C", "C++", "SQL", "php"];
   const frameworks = ["django", "flask", "laravel", "three.js", "react"];
-  const databases = ["PostgreSQL", "MongoDB", "Firebase"];
+  const databases = ["PostgreSQL", "SQLite", "Firebase"];
   return (
     <div id="about" className={styles.main_container}>
       <FadeIn>

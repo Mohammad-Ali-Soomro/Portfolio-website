@@ -11,25 +11,29 @@ const Experience = () => {
             <div className={styles.bar} />
           </div>
           <div className={styles.description}>
-            <h4 className={styles.position}>Full Stack Development</h4>
-            <h6 className={styles.timeline}>2024 - PRESENT</h6>
+            <h4 className={styles.position}>Development Side</h4>
+            <h6 className={styles.timeline}>2023 - PRESENT</h6>
 
             <ul className={styles.bullets}>
               <li>
-                Developed responsive web applications using React.js and Next.js, 
-                implementing modern UI/UX principles and component-based architecture.
+                Developed a portfolio website using Next.js and React, implementing 
+                responsive design and interactive UI components.
               </li>
               <li>
-                Built RESTful APIs and backend systems using Django and Flask, 
-                with database integration using PostgreSQL for efficient data management.
+                Created a chess game with Python Pygame, implementing game logic and 
+                AI opponent functionality.
               </li>
               <li>
-                Created PHP web applications with Laravel framework, implementing MVC 
-                architecture and utilizing Blade templating for dynamic content.
+                Built a data visualization application using Visual C++, creating a 
+                GUI-based interface for bitmap manipulation and analysis.
               </li>
               <li>
-                Implemented interactive 3D visualizations using Three.js, enhancing 
-                user experience with immersive graphical elements and animations.
+                Developed web applications with HTML, CSS, and JavaScript, integrating 
+                with backend systems using Django, Flask, and Laravel frameworks.
+              </li>
+              <li>
+                Implemented database solutions using SQLite for local storage and 
+                PostgreSQL for more complex data management requirements.
               </li>
             </ul>
           </div>
