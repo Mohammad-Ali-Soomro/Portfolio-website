@@ -1,0 +1,63 @@
+.company {
+  display: flex;
+  padding-top: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(80px, 0px));
+}
+.company_name {
+  color: var(--white);
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--green-bright);
+}
+
+.bar {
+  height: 92%;
+  background-color: var(--dark-ash);
+  width: 2px;
+}
+
+.description {
+  width: 60%;
+}
+
+.position {
+  font-weight: bold;
+  color: var(--green-bright);
+}
+
+.timeline {
+  color: var(--dark-ash);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bullets {
+  padding-left: 10px;
+  color: var(--dark-ash);
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.bullets li {
+  margin-top: 18px;
+  line-height: 2;
+}
+
+.bullets li::marker {
+  color: var(--green-bright);
+}
+
+@media only screen and (max-width: 550px) {
+  .position {
+    font-size: 16px;
+  }
+  .timeline {
+    font-size: 10px;
+  }
+  .bullets {
+    font-size: 12px;
+  }
+}

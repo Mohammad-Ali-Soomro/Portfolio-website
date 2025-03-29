@@ -1,0 +1,39 @@
+.main_container {
+  display: flex;
+  justify-content: space-between;
+}
+.highlight {
+  font-weight: bold;
+  color: var(--green-dull);
+}
+
+.language_container {
+  color: var(--dark-ash);
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+}
+
+.language_container {
+  display: flex;
+}
+
+.picture {
+  height: 20rem;
+  width: 20rem;
+  margin-top: 10px;
+  border-radius: 20px;
+  margin-top: 5rem;
+  background-color: var(--navy);
+}
+
+.picture:hover {
+  transform: translateY(-7px);
+  background-color: var(--light-navy);
+}
+
+@media only screen and (max-width: 1000px) {
+  .picture {
+    display: none;
+  }
+}

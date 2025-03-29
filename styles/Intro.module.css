@@ -1,0 +1,49 @@
+.text_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  font-size: 20px;
+  color: var(--white);
+  margin: 0;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--white);
+  margin: 0;
+}
+.bow {
+  margin-top: 20px;
+  height: 22px;
+  width: 22px;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+.type_container {
+  display: flex;
+}
+
+.fadeIn {
+  opacity: 0;
+  transform: translateY(-100px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fadeIn.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media only screen and (max-width: 550px) {
+  .text {
+    font-size: 14px;
+  }
+
+  .name {
+    font-size: 32px;
+  }
+}
