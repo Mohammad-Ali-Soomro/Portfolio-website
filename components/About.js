@@ -66,7 +66,7 @@ const About = () => {
       </FadeIn>
       <FadeIn>
         <div className={styles.picture}>
-          <img src="/self-portrait.png"></img>
+          <img src="/self-portrait.jpeg"></img>
         </div>
       </FadeIn>
     </div>
