@@ -7,32 +7,29 @@ const Experience = () => {
         <h3 className="heading">/experience</h3>
         <div className={styles.company}>
           <div className={styles.grid}>
-            <p className={styles.company_name}>DEXPLAT</p>
+            <p className={styles.company_name}>PROJECT EXPERIENCE</p>
             <div className={styles.bar} />
           </div>
           <div className={styles.description}>
-            <h4 className={styles.position}>Flutter Intern</h4>
-            <h6 className={styles.timeline}>JULY 2023 - SEP 2023</h6>
+            <h4 className={styles.position}>Full Stack Development</h4>
+            <h6 className={styles.timeline}>2024 - PRESENT</h6>
 
             <ul className={styles.bullets}>
               <li>
-                Learned about basic user interface, simple state management,
-                Provider for state management, Firebase Firestore, and Cloud
-                Firestore.
+                Developed responsive web applications using React.js and Next.js, 
+                implementing modern UI/UX principles and component-based architecture.
               </li>
               <li>
-                Learned file structuring and naming conventions, followed coding
-                and reusability principles to convert the figma designs into
-                flutter ui.
+                Built RESTful APIs and backend systems using Django and Flask, 
+                with database integration using PostgreSQL for efficient data management.
               </li>
               <li>
-                Implemented Firebase authentication on a “To-do App” and a
-                module to store, fetch, display and delete images using “Cloud
-                Firestore”.
+                Created PHP web applications with Laravel framework, implementing MVC 
+                architecture and utilizing Blade templating for dynamic content.
               </li>
               <li>
-                Created a “News App” using the news API and learned how to fetch
-                data before rendering the components.
+                Implemented interactive 3D visualizations using Three.js, enhancing 
+                user experience with immersive graphical elements and animations.
               </li>
             </ul>
           </div>
