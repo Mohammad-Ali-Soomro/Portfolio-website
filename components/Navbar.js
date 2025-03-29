@@ -40,14 +40,14 @@ const NavbarComponent = () => {
         </Nav>
         <Nav className="m1-auto">
           <Nav.Link
-            href="mailto:your-email@example.com"
+            href="mailto:mohammadali.pss@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             <EnvelopeIcon className={styles.icon} />
           </Nav.Link>
           <Nav.Link
-            href="https://www.linkedin.com/in/your-linkedin/"
+            href="https://www.linkedin.com/in/mohammad-ali-176602219/"
             target="_blank"
             rel="noopener noreferrer"
           >
