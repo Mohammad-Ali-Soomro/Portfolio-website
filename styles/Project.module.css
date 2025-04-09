@@ -1,7 +1,7 @@
 .project_container {
   display: grid;
   grid-template-columns: repeat(3, minmax(300px, 1fr));
-  grid-gap: 10px;
+  grid-gap: 15px;
 }
 .card {
   background-color: var(--navy);
@@ -10,6 +10,7 @@
   max-width: 1000px;
   min-height: 50vh;
   padding: 20px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 .card:hover {
   transform: translateY(-7px);
@@ -19,6 +20,7 @@
   height: 45px;
   width: 45px;
   color: var(--lightest-navy);
+  transition: color 0.3s ease;
 }
 
 .icon:hover {
@@ -55,12 +57,27 @@
 
 @media only screen and (max-width: 1080px) {
   .project_container {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .project_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .card {
+    min-height: 40vh;
   }
 }
 
 @media only screen and (max-width: 550px) {
   .card {
-    min-height: 40vh;
+    min-height: 35vh;
+    padding: 15px;
+  }
+  
+  .description {
+    font-size: 13px;
   }
 }
