@@ -60,13 +60,13 @@ const About = () => {
           </div>
           <p className="text">
             When i'm not coding, i do poetry, philosophy and also play cricket.
-            
+
           </p>
         </div>
       </FadeIn>
       <FadeIn>
         <div className={styles.picture}>
-          <img src="/self-portrait.jpeg"></img>
+          <img src="/self-portrait.png" alt="Mohammad Ali"></img>
         </div>
       </FadeIn>
     </div>
