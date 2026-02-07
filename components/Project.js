@@ -5,38 +5,68 @@ import { GitHub } from "@mui/icons-material";
 const Project = () => {
   const projects = [
     {
-      title: "Portfolio",
+      title: "Sherlock",
       type: "Web",
-      desc: " A portfolio website showcasing my projects.",
-      techstack: "nextjs",
-      icons: ["/nextjs.svg"],
-      url: "https://github.com/Mohammad-Ali-Soomro",
+      desc: "AI-powered crime investigation app using knowledge graphs and RAG for intelligent case analysis.",
+      techstack: "FastAPI, LangChain, Neo4j, Next.js",
+      icons: ["/Python.svg", "/nextjs.svg", "/docker.svg"],
+      url: "https://github.com/Mohammad-Ali-Soomro/sherlock",
+    },
+    {
+      title: "Gikians",
+      type: "Web",
+      desc: "Alumni & scholar networking platform with AI-powered search, real-time messaging, and community feed.",
+      techstack: "Next.js, TypeScript, Supabase, AI SDK",
+      icons: ["/nextjs.svg", "/typescript.svg", "/supabase.svg"],
+      url: "https://github.com/Mohammad-Ali-Soomro/Gikians",
+    },
+    {
+      title: "UROG",
+      type: "Web",
+      desc: "A platform connecting GIKI professors with undergraduate students for research opportunities.",
+      techstack: "Next.js, TypeScript, Supabase",
+      icons: ["/nextjs.svg", "/typescript.svg", "/supabase.svg"],
+      url: "https://github.com/Mohammad-Ali-Soomro/urog",
+    },
+    {
+      title: "Dareecha 2.0",
+      type: "Web",
+      desc: "A virtual library for GIKI students enabling peer-to-peer book lending with real-time notifications.",
+      techstack: "Node.js, Express, PostgreSQL, Socket.IO",
+      icons: ["/nodejs.svg", "/sql.svg"],
+      url: "https://github.com/Mohammad-Ali-Soomro/Dareecha-2.0",
     },
     {
       title: "Nasa Space Tracker",
       type: "Web",
-      desc: " A project for visualizing ISS using NASA's OpenAPIs",
+      desc: "A project for visualizing ISS using NASA's OpenAPIs.",
       techstack: "Three.js, Leaflet.js, NASA APIs",
-      icons: ["/leaflet.svg "],
+      icons: ["/leaflet.svg"],
       url: "https://github.com/Mohammad-Ali-Soomro/nasa-space-tracker",
     },
-    
+    {
+      title: "Data Visualization using Bitmaps",
+      type: "App",
+      desc: "GUI based OOP Semester Project built using Visual C++.",
+      techstack: "Visual C++",
+      icons: ["/visualC.svg"],
+      url: "https://github.com/Mohammad-Ali-Soomro/Data-Visualization-using-Bitmaps",
+    },
     {
       title: "Bot vs Player Chess Game",
       type: "App",
-      desc: " A chess game where you can play against a bot.",
+      desc: "A chess game where you can play against a bot.",
       techstack: "Python Pygame",
       icons: ["/Python.svg"],
       url: "https://github.com/Mohammad-Ali-Soomro/Chess-Game-in-Python-Pygame",
     },
-
     {
-      title: "Data Visulaization using Bitmaps",
-      type: "App",
-      desc: " GUI based OOP Semester Project built using Visual C++",
-      techstack: "Visual C++",
-      icons: ["/visualC.svg"],
-      url: "https://github.com/Mohammad-Ali-Soomro/Data-Visualization-using-Bitmaps",
+      title: "Portfolio",
+      type: "Web",
+      desc: "A portfolio website showcasing my projects.",
+      techstack: "Next.js",
+      icons: ["/nextjs.svg"],
+      url: "https://github.com/Mohammad-Ali-Soomro",
     },
   ];
   return (
@@ -69,14 +99,18 @@ const Project = () => {
                     </p>
                     <div className={styles.bottom_line} />
                     <p className={styles.techstack}>{project.techstack}</p>
-                    {project.icons?.map((icon) => {
-                      return (
-                        <img
-                          src={icon}
-                          style={{ marginRight: 5, height: 30 }}
-                        />
-                      );
-                    })}
+                    <div className={styles.icon_row}>
+                      {project.icons?.map((icon, idx) => {
+                        return (
+                          <img
+                            key={idx}
+                            src={icon}
+                            alt="tech icon"
+                            className={styles.tech_icon}
+                          />
+                        );
+                      })}
+                    </div>
                   </div>
                 </div>
               </FadeIn>

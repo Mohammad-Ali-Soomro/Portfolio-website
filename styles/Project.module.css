@@ -8,7 +8,7 @@
   align-items: center;
   border-radius: 20px;
   max-width: 1000px;
-  min-height: 50vh;
+  min-height: 45vh;
   padding: 20px;
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
@@ -53,6 +53,29 @@
   border-bottom: 1.5px dashed var(--lightest-navy);
   width: auto;
   margin-bottom: 20px;
+}
+
+.icon_row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.tech_icon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  display: inline-block;
+  opacity: 0.85;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.tech_icon:hover {
+  opacity: 1;
+  transform: scale(1.15);
 }
 
 @media only screen and (max-width: 1080px) {
