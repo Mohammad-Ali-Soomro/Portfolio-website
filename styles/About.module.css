@@ -28,12 +28,12 @@
   gap: 10px;
   padding: 10px 18px;
   background-color: var(--navy);
-  border: 1px solid var(--lightest-navy);
+  border: 1.5px solid var(--green-dull);
   border-radius: 10px;
   color: var(--ash);
   font-size: 13px;
   font-weight: 600;
-  transition: transform 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
+  transition: transform 0.3s ease, border-color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
   cursor: default;
 }
 
@@ -41,26 +41,28 @@
   transform: translateY(-3px);
   border-color: var(--green-bright);
   background-color: var(--light-navy);
+  box-shadow: 0 4px 15px rgba(100, 255, 218, 0.1);
 }
 
 .skill_icon {
   width: 22px;
   height: 22px;
   object-fit: contain;
-  opacity: 0.85;
-  transition: opacity 0.3s ease;
-}
-
-.skill_chip:hover .skill_icon {
-  opacity: 1;
+  flex-shrink: 0;
 }
 
 .hobby_text {
   color: var(--green-bright);
-  font-weight: bold;
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 15px;
   margin: 0;
+  margin-top: 40px;
+  padding: 20px 24px;
   font-style: italic;
+  text-align: center;
+  border-top: 1px dashed var(--lightest-navy);
+  letter-spacing: 0.3px;
+  line-height: 1.6;
 }
 
 @media only screen and (max-width: 768px) {
