@@ -2,6 +2,7 @@ import { EnvelopeIcon } from "@heroicons/react/24/solid";
 import { LinkedIn, GitHub } from "@mui/icons-material/";
 import { Nav, Navbar } from "react-bootstrap";
 import styles from "../styles/Navbar.module.css";
+import FiverrIcon from "./FiverrIcon";
 const NavbarComponent = () => {
   const handleScrollToTop = () => {
     window.scrollTo({
@@ -60,6 +61,13 @@ const NavbarComponent = () => {
             rel="noopener noreferrer"
           >
             <GitHub className={styles.icon} />
+          </Nav.Link>
+          <Nav.Link
+            href="https://www.fiverr.com/mohammadkhan725?public_mode=true"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FiverrIcon className={styles.icon} />
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>

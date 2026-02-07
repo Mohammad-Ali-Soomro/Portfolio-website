@@ -1,7 +1,8 @@
 import FadeIn from "./FadeIn";
 import styles from "../styles/Project.module.css";
 import { Nav } from "react-bootstrap";
-import { GitHub } from "@mui/icons-material";
+import { GitHub, LinkedIn } from "@mui/icons-material";
+import FiverrIcon from "./FiverrIcon";
 const Project = () => {
   const projects = [
     {
@@ -117,6 +118,47 @@ const Project = () => {
             );
           })}
         </div>
+
+        {/* CTA Section */}
+        <FadeIn>
+          <div className={styles.cta_section}>
+            <h3 className={styles.cta_heading}>Let's Build Something Extraordinary</h3>
+            <p className={styles.cta_text}>
+              Impressed by what you see? That's just the surface. I bring the same
+              obsession for quality, performance, and clean architecture to every
+              project I take on — whether it's a full-stack web app, an AI-powered
+              product, or a scalable backend system.
+            </p>
+            <p className={styles.cta_text}>
+              If you're looking for a developer who doesn't just deliver code but delivers
+              <span className={styles.cta_highlight}> results that move the needle</span>,
+              let's talk.
+            </p>
+            <div className={styles.cta_buttons}>
+              <a
+                href="https://www.linkedin.com/in/mohammad-ali-176602219/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.cta_button}
+              >
+                <LinkedIn className={styles.cta_icon} />
+                Connect on LinkedIn
+              </a>
+              <a
+                href="https://www.fiverr.com/mohammadkhan725?public_mode=true"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`${styles.cta_button} ${styles.cta_button_fiverr}`}
+              >
+                <FiverrIcon className={styles.cta_icon} />
+                Hire Me on Fiverr
+              </a>
+            </div>
+            <p className={styles.cta_subtext}>
+              Serious about your project? So am I. Let's ship something great together.
+            </p>
+          </div>
+        </FadeIn>
       </FadeIn>
     </div>
   );
