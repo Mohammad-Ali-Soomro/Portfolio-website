@@ -29,6 +29,7 @@
 
 .description {
   width: 60%;
+  min-width: 0;
 }
 
 .position {
@@ -65,14 +66,88 @@
   color: var(--green-bright);
 }
 
+@media only screen and (max-width: 768px) {
+  .company {
+    flex-direction: column;
+    margin-bottom: 25px;
+  }
+
+  .grid {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+
+  .company_name {
+    width: auto;
+    font-size: 12px;
+  }
+
+  .bar {
+    display: none;
+  }
+
+  .description {
+    width: 100%;
+    padding-left: 0;
+    border-left: 2px solid var(--dark-ash);
+    padding-left: 16px;
+  }
+
+  .position {
+    font-size: 17px;
+  }
+
+  .bullets {
+    padding-left: 16px;
+  }
+
+  .bullets li {
+    margin-top: 12px;
+    line-height: 1.8;
+  }
+}
+
 @media only screen and (max-width: 550px) {
   .position {
-    font-size: 16px;
+    font-size: 15px;
   }
+
+  .role {
+    font-size: 13px;
+  }
+
   .timeline {
     font-size: 10px;
   }
+
   .bullets {
     font-size: 12px;
+    padding-left: 12px;
+  }
+
+  .bullets li {
+    margin-top: 10px;
+    line-height: 1.7;
+  }
+
+  .description {
+    padding-left: 12px;
+  }
+
+  .company_name {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .position {
+    font-size: 14px;
+  }
+
+  .bullets {
+    font-size: 11px;
   }
 }

@@ -79,6 +79,12 @@
     width: 18px;
     height: 18px;
   }
+
+  .hobby_text {
+    font-size: 14px;
+    padding: 16px 16px;
+    margin-top: 30px;
+  }
 }
 
 @media only screen and (max-width: 550px) {
@@ -95,5 +101,24 @@
   .skill_icon {
     width: 16px;
     height: 16px;
+  }
+
+  .hobby_text {
+    font-size: 13px;
+    padding: 14px 12px;
+    margin-top: 24px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .skill_chip {
+    padding: 6px 10px;
+    font-size: 10px;
+    gap: 5px;
+  }
+
+  .skill_icon {
+    width: 14px;
+    height: 14px;
   }
 }

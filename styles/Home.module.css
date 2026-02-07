@@ -2,4 +2,32 @@
   padding-top: 15%;
   padding-inline: 15%;
   background-color: var(--dark-navy);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    padding-inline: 8%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding-top: 80px;
+    padding-inline: 6%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .container {
+    padding-top: 70px;
+    padding-inline: 5%;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .container {
+    padding-inline: 4%;
+  }
 }

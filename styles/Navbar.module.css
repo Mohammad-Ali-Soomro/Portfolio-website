@@ -1,6 +1,7 @@
 .background {
   background-color: var(--dark-navy);
   padding-inline: 15%;
+  z-index: 100;
 }
 
 .tab_text {
@@ -27,18 +28,29 @@
 
 .icon {
   color: var(--ash);
-  height: 2.5vh;
-  width: 2.5vh;
+  height: 20px;
+  width: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .background {
+    padding-inline: 8%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .background {
-    padding-inline: 10%;
+    padding-inline: 6%;
   }
-  
+
   .icon {
     height: 20px;
     width: 20px;
+  }
+
+  .tab_text {
+    font-size: 13px;
+    padding: 8px 0;
   }
 }
 
@@ -46,8 +58,20 @@
   .background {
     padding-inline: 5%;
   }
-  
+
   .tab_text {
-    display: none;
+    font-size: 14px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+
+  .name {
+    font-size: 13px;
+  }
+
+  .icon {
+    height: 22px;
+    width: 22px;
+    margin: 5px 8px 5px 0;
   }
 }

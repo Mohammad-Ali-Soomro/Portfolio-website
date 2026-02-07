@@ -79,7 +79,7 @@ const Project = () => {
         <div className={`${"padded_container"} ${styles.project_container}`}>
           {projects.map((project, i) => {
             return (
-              <FadeIn delay={`${i + 1}00ms`}>
+              <FadeIn delay={`${i + 1}00ms`} key={project.title}>
                 <div className={`${"card"} ${styles.card}`}>
                   <Nav.Link
                     href={project.url}
