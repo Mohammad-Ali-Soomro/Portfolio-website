@@ -10,29 +10,35 @@ const Intro = () => {
   }, []);
   return (
     <div id="intro" className={`${styles.fadeIn} ${fadeIn && styles.active}`}>
-      <div className={styles.text_container}>
-        <p className={styles.text}>hi,</p>
+      <div className={styles.intro_container}>
+        <div className={styles.text_container}>
+          <p className={styles.text}>hi,</p>
 
-        <div className={styles.type_container}>
-          <TypeAnimation
-            className={styles.name}
-            sequence={["i'm "]}
-            wrapper="p"
-            speed={{ type: "keyStrokeDelayInMs", value: 100 }}
-            cursor=""
-          />
-          <div style={{ padding: 5 }} />
-          <TypeAnimation
-            className={styles.name}
-            sequence={["mohammad ali"]}
-            style={{ color: "#64ffda" }}
-            wrapper="p"
-            speed={{ type: "keyStrokeDelayInMs", value: 300 }}
-          />
+          <div className={styles.type_container}>
+            <TypeAnimation
+              className={styles.name}
+              sequence={["i'm "]}
+              wrapper="p"
+              speed={{ type: "keyStrokeDelayInMs", value: 100 }}
+              cursor=""
+            />
+            <div style={{ padding: 5 }} />
+            <TypeAnimation
+              className={styles.name}
+              sequence={["mohammad ali"]}
+              style={{ color: "#64ffda" }}
+              wrapper="p"
+              speed={{ type: "keyStrokeDelayInMs", value: 300 }}
+            />
+          </div>
+
+          <p className={styles.text}>and i code sometimes</p>
+          <img src="/bow.svg" className={styles.bow} />
         </div>
 
-        <p className={styles.text}>and i code sometimes</p>
-        <img src="/bow.svg" className={styles.bow} />
+        <div className={styles.picture}>
+          <img src="/self-portrait.png" alt="Mohammad Ali" />
+        </div>
       </div>
     </div>
   );

@@ -31,19 +31,16 @@ const About = () => {
         <div className="padding">
           <h3 className="heading">/about me</h3>
           <p className="text">
-            I am a
-            <span className={styles.highlight}>
-              {" "}
-              Computer Science student
-            </span>{" "}
-            at
-            <span className={styles.highlight}> GIKI</span> with a
-            passion for building
-            <span className={styles.highlight}> full-stack web applications</span> and
-            exploring
-            <span className={styles.highlight}> Generative AI</span>. I enjoy
-            crafting solutions that solve real problems — from AI-powered
-            investigation tools to university platforms used by peers daily.
+            I don't just write code —
+            <span className={styles.highlight}> I engineer experiences</span>.
+            A CS undergrad at
+            <span className={styles.highlight}> GIKI</span> who turns caffeine
+            into
+            <span className={styles.highlight}> full-stack products</span> and
+            bends
+            <span className={styles.highlight}> Generative AI</span> to do
+            things it wasn't supposed to. If it can be built, I've probably
+            already started.
           </p>
           <br />
           <p className="text">Languages I work with:</p>
@@ -95,14 +92,9 @@ const About = () => {
               })}
             </ul>
           </div>
-          <p className="text">
+          <p className={styles.hobby_text}>
             When I'm not coding, I enjoy poetry, philosophy, and cricket.
           </p>
-        </div>
-      </FadeIn>
-      <FadeIn>
-        <div className={styles.picture}>
-          <img src="/self-portrait.png" alt="Mohammad Ali"></img>
         </div>
       </FadeIn>
     </div>
