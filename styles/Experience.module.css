@@ -1,6 +1,10 @@
 .company {
   display: flex;
   padding-top: 20px;
+  margin-bottom: 30px;
+}
+.company:last-child {
+  margin-bottom: 0;
 }
 .grid {
   display: grid;
