@@ -16,8 +16,10 @@ const Experience = () => {
     {
       category: "FULL-STACK DEVELOPMENT",
       position: "UROG — Research Opportunities Platform",
+      role: "Manager Tech",
       timeline: "2026",
       bullets: [
+        "Leading the technical development as Manager Tech, overseeing architecture decisions, code quality, and team coordination.",
         "Built a platform connecting GIKI professors with undergraduate students for research opportunities.",
         "Implemented role-based authentication, admin dashboard with analytics, project management with deadlines and file uploads.",
         "Developed with Next.js 14 (App Router), TypeScript, Supabase, and Tailwind CSS.",
@@ -57,6 +59,7 @@ const Experience = () => {
             </div>
             <div className={styles.description}>
               <h4 className={styles.position}>{exp.position}</h4>
+              {exp.role && <h5 className={styles.role}>{exp.role}</h5>}
               <h6 className={styles.timeline}>{exp.timeline}</h6>
               <ul className={styles.bullets}>
                 {exp.bullets.map((bullet, i) => (

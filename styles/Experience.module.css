@@ -7,11 +7,14 @@
   margin-bottom: 0;
 }
 .grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(80px, 0px));
+  display: flex;
+  align-items: stretch;
+  gap: 15px;
+  width: 180px;
+  flex-shrink: 0;
 }
 .company_name {
-  color: var(--white);
+  width: 150px;
   font-size: 12px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
@@ -19,9 +22,9 @@
 }
 
 .bar {
-  height: 92%;
   background-color: var(--dark-ash);
   width: 2px;
+  align-self: stretch;
 }
 
 .description {
@@ -31,6 +34,14 @@
 .position {
   font-weight: bold;
   color: var(--green-bright);
+}
+
+.role {
+  color: var(--ash);
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2px 0;
 }
 
 .timeline {
