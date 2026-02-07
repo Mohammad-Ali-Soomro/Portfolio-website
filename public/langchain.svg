@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><rect width="128" height="128" rx="20" fill="#1C3C3C"/><path d="M64 24c-5 0-9 3-9 9v5h-7c-5 0-9 3-9 9v7h-5c-5 0-9 3-9 9s3 9 9 9h5v7c0 5 3 9 9 9h7v5c0 5 3 9 9 9s9-3 9-9v-5h7c5 0 9-3 9-9v-7h5c5 0 9-3 9-9s-3-9-9-9h-5v-7c0-5-3-9-9-9h-7v-5c0-5-3-9-9-9zm0 28c7 0 13 6 13 13s-6 13-13 13-13-6-13-13 6-13 13-13z" fill="#fff"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- LangChain parrot/chain icon - light version for dark backgrounds -->
+  <path d="M64 16c-6 0-10 4-10 10v6h-8c-6 0-10 4-10 10v8h-6c-6 0-10 4-10 10s4 10 10 10h6v8c0 6 4 10 10 10h8v6c0 6 4 10 10 10s10-4 10-10v-6h8c6 0 10-4 10-10v-8h6c6 0 10-4 10-10s-4-10-10-10h-6v-8c0-6-4-10-10-10h-8v-6c0-6-4-10-10-10zm0 30c8 0 14 6 14 14s-6 14-14 14-14-6-14-14 6-14 14-14z" fill="#1EE37D"/>
+  <circle cx="64" cy="60" r="7" fill="#1EE37D"/>
+</svg>
